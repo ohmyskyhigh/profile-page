@@ -24,12 +24,7 @@ const Home: NextPage = () => {
       <header className={styles.header}>
         <Wave color1="#162645" color2="#7184A9" />
         <div className={styles.imageContainer}>
-          <Image
-            src={Portrait}
-            alt="Anthony Ingle"
-            placeholder="blur"
-            className={styles.image}
-          />
+          <Image src={Portrait} alt="Anthony Ingle" className={styles.image} />
         </div>
       </header>
       <main className={styles.main}>
