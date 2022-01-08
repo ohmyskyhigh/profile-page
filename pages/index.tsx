@@ -32,46 +32,46 @@ const Home: NextPage = () => {
           />
         </div>
       </header>
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <section className={styles.about}>
+          <h1 className={styles.name}>Anthony Ingle</h1>
+          <p className={styles.description1}>
+            C.S. Student at Florida State University
+          </p>
+          <p className={styles.description2}>Tallahassee, FL</p>
+        </section>
 
-      <section className={styles.about}>
-        <h1 className={styles.name}>Anthony Ingle</h1>
-        <p className={styles.description1}>
-          C.S. Student at Florida State University
-        </p>
-        <p className={styles.description2}>Tallahassee, FL</p>
-      </section>
+        <section className={styles.links}>
+          <ImageLink
+            src={GitHubSvg}
+            alt="GitHub"
+            link="https://github.com/ingleanthony"
+          />
+          <ImageLink
+            src={LinkedInSvg}
+            alt="LinkedIn"
+            link="https://www.linkedin.com/in/ingleanthony/"
+          />
+          <ImageLink
+            src={MailSvg}
+            alt="Email"
+            link="mailto:ingle.anthony@icloud.com"
+          />
+        </section>
 
-      <section className={styles.links}>
-        <ImageLink
-          src={GitHubSvg}
-          alt="GitHub"
-          link="https://github.com/ingleanthony"
-        />
-        <ImageLink
-          src={LinkedInSvg}
-          alt="LinkedIn"
-          link="https://www.linkedin.com/in/ingleanthony/"
-        />
-        <ImageLink
-          src={MailSvg}
-          alt="Email"
-          link="mailto:ingle.anthony@icloud.com"
-        />
-      </section>
-
-      <section>
-        <RowLink
-          text="Resume"
-          imageSrc={ResumeSvg}
-          link="/Anthony_Ingle_Resume_2022.pdf"
-        />
-        <RowLink
-          text="Photography Website"
-          imageSrc={CameraSvg}
-          link="https://www.anthonyinglephotos.com"
-        />
-      </section>
+        <section>
+          <RowLink
+            text="Resume"
+            imageSrc={ResumeSvg}
+            link="/Anthony_Ingle_Resume_2022.pdf"
+          />
+          <RowLink
+            text="Photography Website"
+            imageSrc={CameraSvg}
+            link="https://www.anthonyinglephotos.com"
+          />
+        </section>
+      </main>
     </div>
   );
 };

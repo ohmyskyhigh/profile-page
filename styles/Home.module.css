@@ -1,9 +1,6 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 512px;
+  max-width: 400px;
+  margin: auto;
 }
 
 .header {
@@ -15,6 +12,7 @@
 
 .imageContainer {
   width: 30%;
+  max-width: 120px;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }

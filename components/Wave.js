@@ -9,6 +9,7 @@ export default function Wave({ color1 = "#000000", color2 = "#fff" }) {
       xmlns="http://www.w3.org/2000/svg"
       className={styles.wave}
       preserveAspectRatio="none"
+      style={{ maxHeight: "120px" }}
     >
       <defs>
         <linearGradient id="gradient" gradientTransform="rotate(90)">
