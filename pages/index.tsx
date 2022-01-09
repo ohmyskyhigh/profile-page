@@ -6,11 +6,14 @@ import Wave from "../components/Wave";
 import ImageLink from "../components/ImageLink";
 import RowLink from "../components/RowLink";
 import Portrait from "../images/portrait.jpg";
+
 import GitHubSvg from "../svg/github.svg";
 import LinkedInSvg from "../svg/linkedin.svg";
 import MailSvg from "../svg/mail.svg";
 import ResumeSvg from "../svg/resume.svg";
 import CameraSvg from "../svg/camera.svg";
+import PhoneSvg from "../svg/phone.svg";
+import ContactSvg from "../svg/contact.svg";
 
 const Home: NextPage = () => {
   return (
@@ -52,9 +55,17 @@ const Home: NextPage = () => {
             alt="Email"
             link="mailto:ingle.anthony@icloud.com"
           />
+          <ImageLink src={PhoneSvg} alt="Phone Number" link="tel:7273310866" />
         </section>
 
-        <section>
+        <section className={styles.rowLinks}>
+          <a href="/Anthony_Ingle.vcf">
+            <div className={styles.contactButton}>
+              <Image src={ContactSvg} alt="Download Contact" />
+              <p>Download Contact</p>
+            </div>
+          </a>
+
           <RowLink
             text="Resume"
             imageSrc={ResumeSvg}

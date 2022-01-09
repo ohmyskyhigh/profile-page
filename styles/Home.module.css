@@ -56,5 +56,24 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 70%;
+  width: 90%;
+}
+
+.rowLinks {
+  width: 90%;
+  margin: auto;
+}
+
+.contactButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #3f537b;
+  color: white;
+  border-radius: 6pt;
+}
+
+.contactButton p {
+  font-size: 12pt;
 }

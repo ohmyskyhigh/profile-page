@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  background-color: rgb(243, 243, 243);
-  width: 90%;
+  background-color: hsl(240, 9%, 94%);
   margin: 0.5rem auto;
   border-radius: 6pt;
+  font-size: 12pt;
 }
