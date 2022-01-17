@@ -60,7 +60,9 @@ const Home: NextPage = () => {
         <Wave color1="#162645" color2="#7184A9" />
         <div className={styles.imageContainer}>
           <Image
-            src="public/portrait.jpg"
+            src="/portrait.jpg"
+            height={1024}
+            width={1024}
             alt="Anthony Ingle"
             className={styles.image}
           />
