@@ -38,8 +38,8 @@ const Home: NextPage = () => {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#162645" />
-        <meta name="msapplication-TileColor" content="#162645" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7184A9" />
+        <meta name="msapplication-TileColor" content="#7184A9" />
         <meta name="theme-color" content="#ffffff" />
         <meta property="og:title" content="Anthony Ingle" />
         <meta property="og:type" content="profile" />
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
       </Head>
 
       <header className={styles.header}>
-        <Wave color1="#162645" color2="#162645" />
+        <Wave color1="#162645" color2="#7184A9" />
         <div className={styles.imageContainer}>
           <Image
             src="/portrait.jpg"
