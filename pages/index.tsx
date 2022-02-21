@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           </a>
 
           <RowLink
-            text="Resume"
+            text="Résumé"
             imageSrc={ResumeSvg}
             link="/Anthony_Ingle_Resume_2022.pdf"
           />
