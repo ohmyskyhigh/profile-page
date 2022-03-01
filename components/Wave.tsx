@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.less";
 
 export default function Wave({ color1 = "#000000", color2 = "#fff" }) {
   return (

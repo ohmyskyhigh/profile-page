@@ -1,9 +1,16 @@
 import Image from "next/image";
+import { FC } from 'react';
 import React from "react";
-import styles from "../styles/RowLink.module.css";
+import styles from "../styles/RowLink.module.less";
 import RightArrow from "../svg/arrow-right.svg";
 
-export default function RowLink({ text, link, imageSrc }) {
+interface IRowLink {
+  text: string;
+  link: string;
+  imageSrc: string;
+}
+
+export const RowLink: FC<IRowLink> = ({ text, link, imageSrc }) => {
   return (
     <a href={link} target="_blank" rel="noreferrer">
       <div className={styles.container}>
